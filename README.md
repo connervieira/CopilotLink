@@ -104,6 +104,10 @@ Copilot can connect to your car's sound system and communicate information using
 
 Copilot can connect to your car's sound system and communicate information using pre-recorded vocal samples.
 
+### Visual: External Display/Aftermarket Stereo Unit
+
+Copilot is based on a Raspberry Pi, which means it can easily display information using HDMI to an external display or the screen of an aftermarket stereo unit.
+
 ### Visual: RGB Lights (Neopixel compatible devices)
 
 Copilot can communicate with RGB LED lights to display information through the peripheral vision of the driver and passengers.
