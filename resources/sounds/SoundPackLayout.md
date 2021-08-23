@@ -1,6 +1,6 @@
 # Sound Pack Layout
 
-This document explains the layout of Copilot sound packs, and what each sound file is for.
+This document explains the layout of Copilot sound packs, and what each sound file is for. If you're interested in creating your own custom vocal sound-pack for Copilot Link, this information will be useful for determining what each sound should be.
 
 ## Vocals
 
