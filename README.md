@@ -13,6 +13,8 @@ This is where Copilot Link steps in.
 
 Copilot Link strives to be a a single platform to connect various devices in your car together using inexpensive hardware. Unlike other software, Copilot doesn't want to disconnect you from driving. Instead of being designed around sending you notifications from your phone and playing your music, Copilot is your driving sidekick, and provides you with the information you need to be a more aware and focused driver.
 
+That's not to say that Copilot can't be fun. While it's main purpose is to assist in driving, it can also be used to make your car do new and entertaining things, like controlling music and lighting systems to create light shows!
+
 ## Examples
 
 Here are various usage examples of how Copilot Link could increase your level of awareness as a driver.
@@ -54,9 +56,11 @@ Copilot isn't just designed in a performance and safety context. There's also pl
 
 ## Hardware
 
+In the future. I plan on building a dedicated product to run Copilot Link using the hardware below. However, for now, you can still try to assemble it yourself. While I don't provide a tutorial based on it's complexity, I've tried to link to external tutorials when applicable.
+
 Copilot Link is intentionally very modular, meaning there are very few concrete hardware requirements. However, this is a recommended parts list designed around making you more connected to your car without wasting money unnecessarily. The parts you use with Copilot Link is entirely dependent on what you want to do with it.
 
-**Note**: This isn't intended to be a concrete parts list. Instead, is a general list to demonstrate the affordability of hardware compatible Copilot Link.
+**Note**: This isn't intended to be a concrete parts list. Instead, is a general list to demonstrate the affordability of hardware compatible Copilot Link. You should ensure that the products you get are compatible with each other yourself before making any purchases.
 
 1. Raspberry Pi 3B+
     - $30
