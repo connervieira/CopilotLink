@@ -2,6 +2,7 @@
 
 **Note**: This file is currently somewhat of a placeholder. These instructions are not complete, and are not thorough by any means. You're welcome to try to follow them, but expect to encounter issues.
 
+
 ## Installation/Setup
 
 0. Set up your Raspberry Pi. No desktop environment is required, so a command line only installation is recommended for performance and reliability reasons.
@@ -37,10 +38,31 @@
 14. Physically connect any devices you'd like to use with Copilot, like a sound system or lighting system.
 15. **INCOMPLETE (This step is not currently possible)**: Optionally, run the testing scripts for the hardware you have installed/connected in order to confirm everything is working properly.
 
-### Recommended
 
-Steps in this section are recommended. You might be able to get away with not completing them but you might not be able to use certain features of Copilot Link. If you you encounter errors, try working through these steps.
+## Menus
 
-- [ ] Install required audio drivers to play sound through the audio jack of the Raspberry Pi.
-- [ ] Install bluetooth packages on Linux. This is required to communicate with Bluetooth devices like OBD II readers and sensors.
-    - `sudo apt-get install bluetooth bluez-utils blueman`
+This section explains the layout of the Copilot Link menus. This information may be useful if you want to open a certain application without a display connected.
+
+- Main Menu
+    - **0**: List options verbally.
+    - **1**: List apps.
+        - **0**: List apps verbally
+        - **1**: Announce time
+        - **2**: Static lighting
+    - **2**: List supported inputs.
+        - *Not yet implemented*
+    - **3**: List supported outputs.
+        - *Not yet implemented*
+
+
+## Terms
+
+This section of the document contains information about terms used in relation to the Copilot system.
+
+### Copilot
+
+The term 'Copilot' refers to the copilot system as a whole, including the Copilot Link software and all of the devices connected to it.
+
+### Copilot Link
+
+'Copilot Link' is the software and hardware that acts as the centralized heart of the Copilot system.
