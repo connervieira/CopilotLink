@@ -9,14 +9,16 @@ Steps in this section are required, and should be completed to ensure Copilot Li
 1. Download Copilot Link. You can either download the stable version from the V0LT website, or the development version from Github with the following command.
     - `git clone https://github.com/connervieira/CopilotLink`
 2 Install 'playsound' Python library
-    - pip3 install playsound
+    - `pip3 install playsound`
 3. Install 'pygobject' Python library
-    - pip3 install pygobject
+    - `pip3 install pygobject`
 4. Install 'obd' Python library
-    - pip3 install obd
+    - `pip3 install obd`
 5. Download or compile Mycroft mimic, and place it at /bin/mimic.
     - <https://github.com/MycroftAI/mimic1>
     - If for some reason you don't want to place mimic at /bin/mimic, you can modify the file path in `tts.py` to match its location.
+6. Change into the CopilotLink directory.
+    - `cd CopilotLink`
 
 ## Recommended
 
