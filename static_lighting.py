@@ -31,5 +31,3 @@ def Start():
         #tts.Speak("Please enter a color", speed="fast", wait=False) # Announce that the 'Lighting' app has finished opening.
         color_selection = input("Selection: ")
         led_strip_process.set_color(color_settings[color_selection][0], color_settings[color_selection][1], color_settings[color_selection][2])
-
-Start()
