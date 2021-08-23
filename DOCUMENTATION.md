@@ -1,9 +1,9 @@
-# Installing
+# Documentation
 
 **Note**: This file is currently somewhat of a placeholder. These instructions are not complete, and are not thorough by any means. You're welcome to try to follow them, but expect to encounter issues.
 
-
-## Required
+## Installation/Setup
+### Required
 Steps in this section are required, and should be completed to ensure Copilot Link functions properly.
 
 1. Download Copilot Link. You can either download the stable version from the V0LT website, or the development version from Github with the following command.
@@ -20,7 +20,7 @@ Steps in this section are required, and should be completed to ensure Copilot Li
 6. Change into the CopilotLink directory.
     - `cd CopilotLink`
 
-## Recommended
+### Recommended
 
 Steps in this section are recommended. You might be able to get away with not completing them but you might not be able to use certain features of Copilot Link. If you you encounter errors, try working through these steps.
 
