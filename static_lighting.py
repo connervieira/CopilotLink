@@ -25,9 +25,9 @@ color_settings = {
 
 
 def Start():
-    tts.Speak("Loaded static lighting", speed="fast", wait=True) # Announce that the 'Lighting' app has finished opening.
+    tts.Speak("Loaded static lighting", speed="fast", wait=True) # Announce that the 'Static Lighting' app has finished opening.
     while True:
         print("Please enter a color")
-        #tts.Speak("Please enter a color", speed="fast", wait=False) # Announce that the 'Lighting' app has finished opening.
+        #tts.Speak("Please enter a color", speed="fast", wait=False) # Announce that the 'Static Lighting' app has finished opening.
         color_selection = input("Selection: ")
         led_strip_process.set_color(color_settings[color_selection][0], color_settings[color_selection][1], color_settings[color_selection][2])
