@@ -5,3 +5,5 @@ Please note: This file is currently a placeholder, and it's currently just being
 - [ ] Download/compile mimic, and place it at /bin/mimic
 - [ ] Install required audio drivers to play sound through the audio jack of the Raspberry Pi.
 - [ ] Download Copilot Link and cd into it's directory
+- [ ] Install 'playsound' Python library
+- [ ] Install 'pygobject' Python library
