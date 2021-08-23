@@ -53,9 +53,9 @@ while True:
     elif (i == 1): # Open apps menu
         tts.Speak("Apps menu. Please select an option.", speed="fast", wait=False)
         print("Please select an app")
-        print("0. List apps")
+        print("0. List apps verbally")
         print("1. Announce time")
-        print("2. Lighting")
+        print("2. Static lighting")
         i = int(input("Selection: "))
 
         tts.Speak("Selected " + str(i))
