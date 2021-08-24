@@ -18,6 +18,7 @@ import time # Required to invoke delays in the script
 # Import apps
 import announce_time # App to announce the current time in 15 second intervals.
 import static_lighting # App to set connected LED strips to a static color.
+import pattern_lighting # App to set connected LED strips to a dynamic color pattern.
 
 # Import outputs
 import speech # Pre-recorded speech library
@@ -55,7 +56,7 @@ while True:
         print("Please select an app")
         print("0. List apps verbally")
         print("1. Announce time")
-        print("2. Static lighting")
+        print("2. Lighting")
         i = int(input("Selection: "))
 
         tts.Speak("Selected " + str(i))
@@ -71,15 +72,18 @@ while True:
             print("Please select a lighting app")
             print("0. List lighting apps")
             print("1. Static lighting")
+            print("2. Pattern lighting")
             i = int(input("Selection: "))
             tts.Speak("Selected " + str(i))
             os.system("clear")
 
             if (i == 0):
                 print("Listing lighting apps")
-                tts.Speak("Option 0. List lighting apps. Option 1. Static lighting", speed="fast", wait=True) # List out the lighting apps verbally.
+                tts.Speak("Option 0. List lighting apps. Option 1. Static lighting. Option 2. Pattern lighting", speed="fast", wait=True) # List out the lighting apps verbally.
             elif (i == 1):
                 static_lighting.Start()
+            elif (i == 2):
+                pattern_lighting.Start()
             else:
                 print("Error: Invalid option.")
                 tts.Speak("Error, invalid option.", speed="fast", wait=True)

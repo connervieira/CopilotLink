@@ -17,3 +17,7 @@ def Start():
             led_strip_process.pattern_knightrider()
         elif (pattern_selection == "rainbow"):
             led_strip_process.pattern_rainbow()
+        elif (pattern_selection == "randompixelstrobe"):
+            led_strip_process.pattern_randompixelstrobe()
+        elif (pattern_selection == "breathe"):
+            led_strip_process.pattern_breate()
