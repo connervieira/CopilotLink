@@ -48,7 +48,10 @@ This section explains the layout of the Copilot Link menus. This information may
     - **1**: List apps.
         - **0**: List apps verbally
         - **1**: Announce time
-        - **2**: Static lighting
+        - **2**: Lighting
+            - **0**: List lighting apps
+            - **1**: Static lighting
+            - **2**: Pattern lighting
     - **2**: List supported inputs.
         - *Not yet implemented*
     - **3**: List supported outputs.
