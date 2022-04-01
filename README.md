@@ -2,7 +2,9 @@
 
 A platform that allows various sensors and output devices in a car to communicate with each other.
 
-**Note:** Copilot Link is still in very early development, and everything is subject to change. At the moment, Copilot Link serves more as a proof of concept, and some of the features you see listed here might not be currently implemented. Always use reasonable judgement, and don't trust Copilot with safety critical tasks.
+## Note
+
+Copilot Link has been discontinued in favor of Predator, which shares much of the functionality of Copilot Link, but has drastically more features. Check it out at <https://v0lttech.com/predator.php>
 
 
 ## Description
